@@ -68,7 +68,7 @@ ARG GPU
 ARG APP_ROOT
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
-        libgtk-4-1 \
+        libgtk-3-0 \
 # DO NOT REMOVE THIS LABEL: this is used for VS Code automation
     # __torizon_packages_prod_start__
     # __torizon_packages_prod_end__
