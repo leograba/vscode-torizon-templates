@@ -252,8 +252,8 @@
             "debugSSHPort": "2231",
             "multiContainer": true,
             "support": "Partner",
-            "status": "incomplete",
-            "customMessage": "Slint 1.8 not working properly with some GPU on Torizon OS 7",
+            "status": "ok",
+            "customMessage": "",
             "tests": {
                 "debuggers": {
                     "local": ["Local AMD64"],
@@ -278,8 +278,8 @@
             "debugSSHPort": "2231",
             "multiContainer": true,
             "support": "Partner",
-            "status": "incomplete",
-            "customMessage": "Slint 1.8 not working properly with some GPU on Torizon OS 7",
+            "status": "ok",
+            "customMessage": "",
             "tests": {
                 "debuggers": {
                     "local": ["Debug executable "],
