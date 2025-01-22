@@ -236,7 +236,8 @@
             "debugSSHPort": "2230",
             "multiContainer": true,
             "support": "Community",
-            "deprecated": false,
+            "status": "ok",
+            "customMessage": "",
             "tests" : {
                 "debuggers": {
                     "local": ["Local AMD64"],
@@ -348,6 +349,7 @@
             "multiContainer": true,
             "support": "Partner",
             "status": "ok",
+            "customMessage": "",
             "tests" : {
                 "debuggers": {
                     "local": ["Local AMD64"],
