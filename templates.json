@@ -228,6 +228,29 @@
             }
         },
         {
+            "img": "gtk3.png",
+            "folder": "cmakeGTK3",
+            "description": "C++ CMake GTK 3 Application",
+            "runtime": "GTK 3",
+            "language": "C++",
+            "debugSSHPort": "2230",
+            "multiContainer": true,
+            "support": "Community",
+            "status": "ok",
+            "customMessage": "",
+            "tests" : {
+                "debuggers": {
+                    "local": ["Local AMD64"],
+                    "arm": ["Torizon ARMv7"],
+                    "arm64": ["Torizon ARMv8"]
+                },
+                "debuggerConsole": "cppdbg",
+                "mainFile": "src/main.cpp",
+                "mainFileBreakpointLine": 42,
+                "successDebugMessage": "Hello Torizon!"
+            }
+        },
+        {
             "img": "tcb.png",
             "folder": "tcb",
             "description": "TorizonCore Builder Project",
@@ -252,8 +275,8 @@
             "debugSSHPort": "2231",
             "multiContainer": true,
             "support": "Partner",
-            "status": "incomplete",
-            "customMessage": "Slint 1.8 not working properly with some GPU on Torizon OS 7",
+            "status": "ok",
+            "customMessage": "",
             "tests": {
                 "debuggers": {
                     "local": ["Local AMD64"],
@@ -278,8 +301,8 @@
             "debugSSHPort": "2231",
             "multiContainer": true,
             "support": "Partner",
-            "status": "incomplete",
-            "customMessage": "Slint 1.8 not working properly with some GPU on Torizon OS 7",
+            "status": "ok",
+            "customMessage": "",
             "tests": {
                 "debuggers": {
                     "local": ["Debug executable "],
@@ -326,6 +349,7 @@
             "multiContainer": true,
             "support": "Partner",
             "status": "ok",
+            "customMessage": "",
             "tests" : {
                 "debuggers": {
                     "local": ["Local AMD64"],
