@@ -1,15 +1,15 @@
 # ARGUMENTS --------------------------------------------------------------------
-    ARG BASE_VERSION=4
+ARG BASE_VERSION=4
 
-    ##
-    # Board architecture
-    ##
-    ARG IMAGE_ARCH=
-    
-    ##
-    # Board GPU vendor prefix
-    ##
-    ARG GPU=
+##
+# Board architecture
+##
+ARG IMAGE_ARCH=
+
+##
+# Board GPU vendor prefix
+##
+ARG GPU=
 
 ##
 # Application root directory inside the container
@@ -18,7 +18,7 @@ ARG APP_ROOT=
 
 
 # BUILD ------------------------------------------------------------------------
-FROM --platform=linux/${IMAGE_ARCH} torizon/wayland-base${GPU}:${BASE_VERSION}
+FROM --platform=linux/${IMAGE_ARCH} torizon/wayland-base:${BASE_VERSION}
 
 ARG APP_ROOT
 ARG GPU

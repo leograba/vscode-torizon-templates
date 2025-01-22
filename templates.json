@@ -251,7 +251,7 @@
             }
         },
         {
-            "img": "gtk3.png",
+            "img": "gtk4.png",
             "folder": "cmakeGTK4",
             "description": "C++ CMake GTK 4 Application",
             "runtime": "GTK 4",
@@ -259,7 +259,8 @@
             "debugSSHPort": "2230",
             "multiContainer": true,
             "support": "Community",
-            "deprecated": false,
+            "status": "ok",
+            "customMessage": "",
             "tests" : {
                 "debuggers": {
                     "local": ["Local AMD64"],

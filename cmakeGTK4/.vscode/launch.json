@@ -38,7 +38,7 @@
             "externalConsole": false,
             "internalConsoleOptions": "openOnSessionStart",
             "logging": {
-                "engineLogging": false,  // set this to true for a detailed log on the debug console
+                "engineLogging": false
             },
             "sourceFileMap": {
                 "${config:torizon_app_root}": "${workspaceFolder}"
@@ -55,7 +55,7 @@
                     "StrictHostKeyChecking=no",
                     "-o",
                     "UserKnownHostsFile /dev/null",
-                    "${config:torizon_run_as}@${config:torizon_ip}" // user@device
+                    "${config:torizon_run_as}@${config:torizon_ip}"
                 ]
             },
             "MIMode": "gdb",
@@ -85,7 +85,7 @@
             "externalConsole": false,
             "internalConsoleOptions": "openOnSessionStart",
             "logging": {
-                "engineLogging": false,  // set this to true for a detailed log on the debug console
+                "engineLogging": false
             },
             "sourceFileMap": {
                 "${config:torizon_app_root}": "${workspaceFolder}"
@@ -102,7 +102,7 @@
                     "StrictHostKeyChecking=no",
                     "-o",
                     "UserKnownHostsFile /dev/null",
-                    "${config:torizon_run_as}@${config:torizon_ip}" // user@device
+                    "${config:torizon_run_as}@${config:torizon_ip}"
                 ]
             },
             "MIMode": "gdb",
@@ -132,7 +132,7 @@
             "externalConsole": false,
             "internalConsoleOptions": "openOnSessionStart",
             "logging": {
-                "engineLogging": false,  // set this to true for a detailed log on the debug console
+                "engineLogging": false
             },
             "sourceFileMap": {
                 "${config:torizon_app_root}": "${workspaceFolder}"
@@ -149,7 +149,7 @@
                     "StrictHostKeyChecking=no",
                     "-o",
                     "UserKnownHostsFile /dev/null",
-                    "${config:torizon_run_as}@${config:torizon_ip}" // user@device
+                    "${config:torizon_run_as}@${config:torizon_ip}"
                 ]
             },
             "MIMode": "gdb",
@@ -166,6 +166,6 @@
                 }
             ],
             "preLaunchTask": "deploy-torizon-arm64"
-        },
+        }
     ]
 }
